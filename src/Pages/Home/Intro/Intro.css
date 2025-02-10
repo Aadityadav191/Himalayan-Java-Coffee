@@ -1,0 +1,44 @@
+.introcontent {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; 
+    color: #979baa;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.intro-text {
+    margin-bottom: 10px; 
+    font-size: 1.4rem; 
+    line-height: 1.5; 
+    padding: 0 10rem;
+}
+
+.Journeysection{
+    display: flex;
+    justify-content: space-around;
+    color: #3e3d3d;
+}
+
+.journey-img{
+    height: 500px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.journey-text{
+    padding-left: 5rem;
+    align-items: start;
+}
+
+.journey-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.journey-text p{
+    color:#7c7c7c;
+    padding: 2rem;
+}
