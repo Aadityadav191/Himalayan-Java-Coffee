@@ -10,35 +10,42 @@
 }
 
 .intro-text {
-    margin-bottom: 10px; 
+    margin-bottom: 20px; 
     font-size: 1.4rem; 
     line-height: 1.5; 
-    padding: 0 10rem;
+    max-width:65%;
 }
 
-.Journeysection{
+.Journeysection {
     display: flex;
-    justify-content: space-around;
-    color: #3e3d3d;
-}
-
-.journey-img{
+    justify-content: center; 
+    align-items: center; 
+    gap: 5rem; 
+  }
+  
+  .journey-img {
     height: 500px;
     width: 600px;
     object-fit: cover;
-}
-
-.journey-text{
-    padding-left: 5rem;
-    align-items: start;
-}
-
-.journey-text h1 {
-    font-size: 3rem;
+  }
+  
+  .journey-text {
+    text-align:start; 
+    color: #3e3d3d;
+  }
+  
+  .journey-text h1 {
+    font-size: 3rem; 
     font-weight: bold;
-}
+    line-height: 1.2;
+  }
+  
+  .journey-text p {
+    color: #7c7c7c;
+    font-size: 16px; 
+    line-height: 1.6; 
+    max-width: 500px; 
+    margin: 2rem auto; 
 
-.journey-text p{
-    color:#7c7c7c;
-    padding: 2rem;
-}
+  }
+  

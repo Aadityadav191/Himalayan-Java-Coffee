@@ -28,7 +28,7 @@ export default function Intro() {
 
       
         <div className="journey-text">
-        <text>Coffee Farming</text>
+        <h6>Coffee Farming</h6>
          <h1>The Journey from <br/> Crop to Cup</h1>
          <p>
          Grown in the ideal Himalayan air, our coffee beans are roasted to perfection and sent off to all our outlets to deliver the best coffee experience.

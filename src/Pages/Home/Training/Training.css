@@ -1,0 +1,17 @@
+.Coffee-Equipment, .Barista-Training , .Bakery-Training{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+    padding: 0px 90px;
+}
+
+section div span img {
+    height: 500px;
+    width: 600px;
+}
+
+.Traningtitle {
+    font-weight: 500px;
+    font-weight: bold;
+}
