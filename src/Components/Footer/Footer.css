@@ -1,0 +1,52 @@
+.footer1 {
+  background-color: black;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: aliceblue;
+  padding-top: 2rem;
+  gap: 6rem;
+}
+
+.footer1 section {
+  max-width: 300px;
+}
+.footer1 section h4 {
+  line-height: 100px;
+}
+.footer1 section span {
+  line-height: 30px;
+}
+
+.footer1 section img {
+  align-items: center;
+  align-content: center;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.appstoreimg {
+  height: 12%;
+  width: 100%;
+}
+
+.footer2 {
+  background-color: #1c1c1c;
+  height: 4rem;
+  color: #cc4615;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10rem;
+}
+
+.footer2 section {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
