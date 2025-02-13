@@ -1,6 +1,8 @@
 import React from "react";
 import "./Intro.css";
 import Btn from "../../../Components/Btn/Btn";
+import { motion } from "framer-motion";
+
 
 
 export default function Intro() {
@@ -21,9 +23,16 @@ export default function Intro() {
 
       <section className="Journeysection">
 
-       <div>
+       <motion.div
+                 initial={{ opacity: 0, scale: 0 }}
+                 animate={{ opacity: 1, scale: 1 }}
+                 transition={{
+                   duration: 2,
+                   scale: { type: "spring", visualDuration: 1, bounce: 0.5 },
+                 }}
+               >
           <img src="https://himalayanjava.com/wp-content/uploads/2023/08/crop.jpg" className="journey-img" alt="Journey-img"/>
-        </div>
+        </motion.div>
 
 
       

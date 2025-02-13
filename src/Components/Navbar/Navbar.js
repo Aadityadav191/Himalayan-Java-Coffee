@@ -6,7 +6,7 @@ export default function Navigation() {
   return (
     <>
 
-      <Navbar bg="light" expand="lg" class="navbar sticky-top bg-body-tertiary" >
+      <Navbar bg="transparent" expand="lg" className="navbar position-sticky top-0 bg-body-tertiary">
         <Navbar.Brand href="">
           <img
             src="https://himalayanjava.com/wp-content/uploads/2023/08/java-newlogo.png"
