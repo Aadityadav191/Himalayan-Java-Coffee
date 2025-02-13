@@ -1,0 +1,8 @@
+.location-cards-container{
+    border: 1px solid;
+    height: 10rem;
+    width: 15rem;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}

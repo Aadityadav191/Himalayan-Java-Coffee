@@ -71,7 +71,7 @@ export default function Footer() {
 
 
             <section>
-                  <div>© Himalayan Java. 1999-2025 | Powered by: thamel.com</div>
+                  <div>© Himalayan Java. 1999-2025 | Powered by:   AADITYADAV</div>
             </section>
       </footer>
     </>
