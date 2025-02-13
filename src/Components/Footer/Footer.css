@@ -1,5 +1,5 @@
 .footer1 {
-  background-color: black;
+  background-color:#141414;
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -36,7 +36,7 @@
 .footer2 {
   background-color: #1c1c1c;
   height: 4rem;
-  color: #cc4615;
+  color: #de8237;
   display: flex;
   align-content: center;
   align-items: center;
