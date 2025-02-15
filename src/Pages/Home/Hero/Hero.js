@@ -14,7 +14,7 @@ export default function Hero() {
             scale: { type: "spring", visualDuration: 1, bounce: 0.5 },
           }}
         >
-          <h1>Rise and grind, it's coffee time!</h1>
+          <h1>Savor the Spirit of the Himalayas in Every Cup</h1>
         </motion.div>
       </main>
     </>
