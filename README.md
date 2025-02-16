@@ -1,7 +1,7 @@
 
 
 
-<h1>This Project Live at: [himalayanjavacoffee.netlify.app](https://himalayanjavacoffee.netlify.app/)</h1>
+<h1>This Project Live at:https://himalayanjavacoffee.netlify.app/</h1>
 
 
 
