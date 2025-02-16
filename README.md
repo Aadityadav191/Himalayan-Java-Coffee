@@ -1,6 +1,3 @@
-
-
-
 <h1>This Project Live at:https://himalayanjavacoffee.netlify.app/</h1>
 
 
