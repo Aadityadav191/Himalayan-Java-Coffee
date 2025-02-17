@@ -4,11 +4,12 @@
     gap: 0.5rem; 
    
 }
-
 .navbar .nav-link:hover {
     color:#773d0e;
     text-decoration: underline;
 }
 .navbar{
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2); /* Horizontal, Vertical, Blur Radius, Color */
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
 }
+
+
