@@ -1,12 +1,14 @@
 .navbar .nav-link {
     font-size: 1.2rem;
     color: #000;
-    gap: 0.5rem;
-    
-    
+    gap: 0.5rem; 
+   
 }
 
 .navbar .nav-link:hover {
     color:#773d0e;
     text-decoration: underline;
+}
+.navbar{
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2); /* Horizontal, Vertical, Blur Radius, Color */
 }
