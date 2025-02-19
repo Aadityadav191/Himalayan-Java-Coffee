@@ -32,8 +32,8 @@ export default function Footer() {
           <p>info@himalayanjava.com</p>
 
           <span style={{ display: 'flex', gap: '10px', padding:'30px' }}>
-          <FaFacebookF size={25} />
-          <FaInstagram size={25}/>
+          <FaFacebookF size={25} style={{ cursor: 'pointer' }}/>
+          <FaInstagram size={25} style={{ cursor: 'pointer' }}/>
           </span>
 
            
