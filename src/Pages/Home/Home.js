@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../../Components/Navbar/Navbar";
 import Hero from "./Hero/Hero";
 import Intro from "./Intro/Intro";
 import BuyHero from "./BuyHero/BuyHero";
@@ -11,7 +10,7 @@ export default function Home() {
   return (
     <>
       <main>
-        <Navbar />
+        
         <Hero />
         <Intro />
         <BuyHero />
