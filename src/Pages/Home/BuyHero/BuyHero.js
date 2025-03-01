@@ -1,6 +1,7 @@
 import React from 'react'
 import './BuyHero.css'
 import Btn from "../../../Components/Btn/Btn";
+import { motion } from "framer-motion";
 
 
 export default function BuyHero() {
@@ -8,7 +9,13 @@ export default function BuyHero() {
     <>
       <section className='buyhero'>
 
-       <div className='leftsidetext'>
+       <motion.div 
+       className='leftsidetext'
+       initial={{ opacity: 0, y: 50 }} // Start with the card hidden and below the view
+        whileInView={{ opacity: 1, y: 0 }} // Animate to full opacity and original position when in view
+        transition={{ duration:0.5, delay: 0.25}} // Duration for the animation
+        viewport={{ once: true }}
+        >
         <h1>Buy Online </h1>
         <p>Curated selection of coffee, delivered to your doorstep</p>
 
@@ -18,15 +25,25 @@ export default function BuyHero() {
 
         <Btn/>
 
-       </div>
+       </motion.div>
 
        
-       <div>
+       <motion.div
+         initial={{ opacity: 0, y: 50 }} 
+        whileInView={{ opacity: 1, y: 0 }} 
+        transition={{ duration:0.5, delay: 0.75}} 
+        viewport={{ once: true }}
+        >
         <img src='https://himalayanjava.com/wp-content/uploads/2023/08/product-jaba.jpg' alt='product'/>
-       </div>
+       </motion.div>
        
 
-       <div className='rightsidetext'>
+       <motion.div className='rightsidetext'
+       initial={{ opacity: 0, y: 50 }} 
+        whileInView={{ opacity: 1, y: 0 }} 
+        transition={{ duration:0.5, delay:1}} 
+        viewport={{ once: true }}
+       >
 
        <div>
         <img src='https://himalayanjava.com/wp-content/uploads/2023/08/javacup.jpg' alt='product'/>
@@ -39,7 +56,7 @@ export default function BuyHero() {
         <p>We have achieved this by using high-quality ingredients.</p>
 
         
-       </div>
+       </motion.div>
 
 
       </section>
@@ -49,27 +66,47 @@ export default function BuyHero() {
 
        <section className='imgsection'>
   
-        <div>
+        <motion.div
+        initial={{ opacity: 0, y: 50 }} 
+        whileInView={{ opacity: 1, y: 0 }} 
+        transition={{ duration:0.5, delay: 0.25}} 
+        viewport={{ once: true }}
+        >
         <img src='https://himalayanjava.com/wp-content/uploads/2023/08/coffee1.png' alt='product'/>
         <h6>EVEREST ROAST</h6>
-        </div>
+        </motion.div>
 
 
-        <div>
+        <motion.div
+        initial={{ opacity: 0, y: 50 }} 
+        whileInView={{ opacity: 1, y: 0 }} 
+        transition={{ duration:0.5, delay: 0.5}} 
+        viewport={{ once: true }}
+        >
         <img src='https://himalayanjava.com/wp-content/uploads/2023/08/coffee2.png' alt='product'/>
         <h6>THAMEL ROAST</h6>
-        </div>
+        </motion.div>
 
-        <div>
+        <motion.div
+        initial={{ opacity: 0, y: 50 }} 
+        whileInView={{ opacity: 1, y: 0 }} 
+        transition={{ duration:0.5, delay: 0.75}} 
+        viewport={{ once: true }}
+        >
         <img src='https://himalayanjava.com/wp-content/uploads/2023/08/coffee3.png' alt='product'/>
         <h6>ESPRESSO ROAST</h6>
-        </div>
+        </motion.div>
 
 
-        <div>
+        <motion.div
+        initial={{ opacity: 0, y: 50 }} 
+        whileInView={{ opacity: 1, y: 0 }} 
+        transition={{ duration:0.5, delay: 1}} 
+        viewport={{ once: true }}
+        >
         <img src='https://himalayanjava.com/wp-content/uploads/2023/10/Untitled-design-6.png' alt='product'/>
         <h6>MEDIUM ROAST</h6>
-        </div>
+        </motion.div>
 
 
        </section>
