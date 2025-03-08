@@ -1,51 +1,116 @@
 .introcontent {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column; 
-    color: #979baa;
-    padding-top: 3rem;
-    margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: #979baa;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .intro-text {
-    margin-bottom: 20px; 
-    font-size: 1.4rem; 
-    line-height: 1.5; 
-    max-width:65%;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  max-width: 70%;
 }
 
 .Journeysection {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    gap: 5rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.journey-img {
+  height: 500px;
+  width: 600px;
+  object-fit: cover;
+}
+
+.journey-text {
+  text-align: start;
+  color: #3e3d3d;
+}
+
+.journey-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.journey-text p {
+  color: #7c7c7c;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+@media (max-width: 768px) {
+  .intro-text {
+      font-size: 1.2rem;
+      max-width: 85%;
   }
-  
+
+  .Journeysection {
+      flex-direction: column;
+      gap: 2rem;
+  }
+
   .journey-img {
-    height: 500px;
-    width: 600px;
-    object-fit: cover;
+      height: 400px;
+      width: 100%;
   }
-  
-  .journey-text {
-    text-align:start; 
-    color: #3e3d3d;
-  }
-  
+
   .journey-text h1 {
-    font-size: 3rem; 
-    font-weight: bold;
-    line-height: 1.2;
+      font-size: 2.5rem;
   }
+
+  .journey-text p {
+      font-size: 14px;
+      max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-text {
+      font-size: 1rem;
+      max-width: 90%;
+  }
+
+  .journey-img {
+      height: 300px;
+      width: 100%;
+  }
+
+  .journey-text h1 {
+      font-size: 2rem;
+      text-align: center;
+  }
+
+  .journey-text h6 {
+    text-align: center;
+}
   
   .journey-text p {
-    color: #7c7c7c;
-    font-size: 16px; 
-    line-height: 1.6; 
-    max-width: 500px; 
-    margin: 2rem auto; 
-
+      font-size: 13px;
   }
-  
+}
+
+@media (min-width: 1366px) {
+  .journey-img {
+      height: 600px;
+      width: 800px;
+  }
+
+  .journey-text h1 {
+      font-size: 3.5rem;
+  }
+
+  .journey-text p {
+      font-size: 18px;
+  }
+}

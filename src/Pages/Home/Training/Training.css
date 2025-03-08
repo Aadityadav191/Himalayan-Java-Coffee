@@ -1,22 +1,76 @@
-.Coffee-Equipment, .Barista-Training , .Bakery-Training{
+.Coffee-Equipment, .Barista-Training, .Bakery-Training {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
-    padding: 0px 90px;
-}
-
-section div span img {
-    height: 500px;
-    width: 600px;
-}
-
-.Traningtitle {
+    padding: 0px 5%;
+    flex-wrap: wrap;
+  }
+  
+  section div span img {
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .Traningtitle {
     font-size: 4rem;
     font-weight: bold;
     color: #383838;
-}
-.Traningtext{
+    text-align: center;
+  }
+  
+  .Traningtext {
     max-width: 500px;
-    
-}
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .Coffee-Equipment, .Barista-Training, .Bakery-Training {
+      flex-direction: column;
+      padding: 0px 20px;
+    }
+  
+    section div span img {
+      height: 400px;
+      width: 100%;
+    }
+  
+    .Traningtitle {
+      font-size: 3rem;
+    }
+  
+    .Traningtext {
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Coffee-Equipment, .Barista-Training, .Bakery-Training {
+      padding: 0px 10px;
+    }
+  
+    section div span img {
+      height: 300px;
+      width: 100%;
+    }
+  
+    .Traningtitle {
+      font-size: 2.5rem;
+    }
+  
+    .Traningtext {
+      max-width: 90%;
+    }
+  }
+  
+  @media (min-width: 1366px) {
+    .Coffee-Equipment, .Barista-Training, .Bakery-Training {
+      padding: 0px 100px;
+    }
+  
+    .Traningtitle {
+      font-size: 4.5rem;
+    }
+  }
+  

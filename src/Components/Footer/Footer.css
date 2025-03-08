@@ -1,54 +1,126 @@
 .footer1 {
-  background-color:#141414;
-  height: 80vh;
+  background-color: #141414;
+  height: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   color: aliceblue;
-  padding-top: 2rem;
-  gap: 6rem;
+  padding: 2rem 1rem;
+  gap: 2rem;
 }
 
 .footer1 section {
   max-width: 300px;
+  text-align: center;
 }
+
 .footer1 section h4 {
-  line-height: 100px;
+  line-height: 50px;
+  font-size: 1.5rem;
 }
+
 .footer1 section span {
-  line-height: 30px;
+  line-height: 24px;
+  font-size: 0.9rem;
 }
 
 .footer1 section img {
-  align-items: center;
-  align-content: center;
+  max-width: 100%;
+  height: auto;
 }
+
 .app-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
+
 .appstoreimg {
-  height: 12%;
-  width: 100%;
+  height: auto;
+  width: 80%;
+  max-width: 200px;
   cursor: pointer;
 }
 
 .footer2 {
   background-color: #1c1c1c;
-  height: 4rem;
+  height: auto;
   color: #de8237;
   display: flex;
-  align-content: center;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 10rem;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .footer2 section {
   display: flex;
-  align-content: center;
-  justify-content: space-around;
-  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .footer1 {
+    flex-direction: row;
+    gap: 4rem;
+    padding-top: 4rem;
+  }
+
+  .footer1 section h4 {
+    line-height: 70px;
+    font-size: 1.8rem;
+  }
+
+  .footer1 section span {
+    line-height: 30px;
+    font-size: 1rem;
+  }
+
+  .app-container {
+    gap: 20px;
+  }
+
+  .appstoreimg {
+    width: 100%;
+  }
+
+  .footer2 {
+    flex-direction: row;
+    gap: 4rem;
+    padding: 1.5rem;
+  }
+
+  .footer2 section {
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer1 {
+    gap: 6rem;
+    padding-top: 6rem;
+  }
+
+  .footer1 section h4 {
+    line-height: 100px;
+    font-size: 2rem;
+  }
+
+  .footer1 section span {
+    line-height: 35px;
+    font-size: 1.1rem;
+  }
+
+  .footer2 {
+    gap: 6rem;
+    padding: 2rem;
+  }
+
+  .footer2 section {
+    gap: 3rem;
+  }
 }
